@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_summary"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Event Summary" />
+    <item
+        android:id="@+id/navigation_history_transactions"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="Transactions" />
+
+</menu>

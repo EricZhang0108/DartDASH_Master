@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Application Settings"
+        android:key="pref_app_cat">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="signature_switch"
+            android:title="Export transaction signatures with events" />
+
+        <EditTextPreference
+            android:defaultValue="Thank you for participating!"
+            android:key="message_pref"
+            android:selectAllOnFocus="true"
+            android:singleLine="false"
+            android:title="Edit Thank You Message" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Account Settings"
+        android:key="pref_account_cat">
+        <Preference
+            android:key="sign_out_pref"
+            android:title="Sign out">
+            <intent
+                android:action="action.intent.action.VIEW"
+                android:targetPackage="edu.dartmouth.cs.myapplication"
+                android:targetClass="edu.dartmouth.cs.myapplication.LoginActivity" >
+                <extra
+                    android:name="ACTIVITY_NAME"
+                    android:value="SETTINGS_ACTIVITY" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
