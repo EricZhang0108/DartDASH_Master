@@ -5,6 +5,7 @@
 
 DartDASH is an Android mobile application dedicated to helping Dartmouth organizations with fundraising using student's DASH account. The clubs can simply use the OCR technology to scan the student's ID to get the name and DASH number of each customer instead of having to write all of them down manually. After that, The customer can sign on the phone itself to approve of the transactions. All of that information will be saved conveniently in a list under each event. The organization can then export an event's transaction history to Excel spreadsheet to be emailed and saved. Students can also use DartDASH to see ongoing events around campus and the organizer's email to contact with. DartDASH provides a much faster way to charge the DASH account and make fundraising easier and more enjoyable. This is the final project for Smartphone Programming (CS65). Please see our website for more information:
 https://ericzhang0108.github.io/DartDASH/#
+https://play.google.com/store/apps/details?id=edu.dartmouth.cs.myapplication
 
 ## Getting Started
 
